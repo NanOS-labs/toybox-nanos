@@ -1,15 +1,10 @@
-build/
-install/
-*.o
-*.a
-*.so
-*.dylib
-*.nxe
-*.elf
-*.ndl
-*.log
-.cache/
-__pycache__/
-*.pyc
-target/
-.DS_Store
+syntax: glob
+/.config*
+/.single*
+/change/
+/generated/
+/kconfig/mconf
+/kconfig/conf
+/kconfig/*.c
+/toybox
+/toybox_unstripped
